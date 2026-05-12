@@ -1,9 +1,8 @@
-Jenkinsfile
 pipeline {
     agent any
 
     environment {
-        DOCKERHUB_CREDENTIALS = 'dockerhub-creds' // The ID you'll set in Jenkins
+        DOCKERHUB_CREDENTIALS = 'dockerhub-creds' 
         APP_NAME = "meghana1007/flask-app"
     }
 
